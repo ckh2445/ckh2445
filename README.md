@@ -1,5 +1,6 @@
-<h1 align="center"><img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="35"> Choi KwnagHo</h1>
+
 <p align="center">
+	<img src="https://capsule-render.vercel.app/api?type=venom&color=auto&height=300&section=header&text=Choi%20KwangHo&fontSize=90&animation=fadeIn" />
  <a href="https://github.com/DenverCoder1/readme-typing-svg"><img src="https://readme-typing-svg.herokuapp.com?lines=Full-Stack+Web+Developer;Always%20learning%20new%20things&center=true&width=500&height=50&font=georgia"></a>
 </p>
 <hr/>
@@ -18,11 +19,11 @@
 <p align="left"> 
   &emsp; 
   <a href="https://www.cprogramming.com/" target="_blank"> 
-    <img src="https://img.shields.io/badge/C#-#512BD4?style=for-the-badge&logo=csharp&logoColor=white">
+    <img src="https://img.shields.io/badge/csahrp-#512BD4?style=for-the-badge&logo=csharp&logoColor=white">
   </a> 
   &emsp;
   <a href="https://www.w3schools.com/cpp/" target="_blank"> 
-    <img alt="C++" src="https://img.shields.io/badge/C++%20-%2300599C.svg?logo=c%2B%2B&logoColor=white">
+    <img alt="C++" src="https://img.shields.io/badge/C++%20-%2300599C.svg?logo=csharp&logoColor=white">
   </a> 
   &emsp;
   <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"> 
