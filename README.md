@@ -1,6 +1,6 @@
 
 <p align="center">
-	<img src=https://capsule-render.vercel.app/api?type=venom&height=300&section=header&text=Choi%20KwangHo&fontSize=90&animation=twinkling&&color=0:8871e5,100:b678c4&stroke=b678c4 />
+	<img src=https://capsule-render.vercel.app/api?type=venom&height=300&section=header&text=KwangHo&fontSize=90&animation=twinkling&&color=0:8871e5,100:b678c4&stroke=b678c4 />
  <a href="https://github.com/DenverCoder1/readme-typing-svg"><img src="https://readme-typing-svg.herokuapp.com?lines=Full-Stack+Web+Developer;Always%20learning%20new%20things&center=true&width=500&height=50&font=georgia"></a>
 </p>
 <hr/>
@@ -123,10 +123,10 @@
   <summary><b>💻 GitHub Profile Stats</b></summary>
   <br/>
   <p align="center">
-    <a href="https://github.com/Candida18"><img align="center" src="https://github-readme-stats.vercel.app/api?username=candida18&show_icons=true&locale=en&theme=algolia" alt="candida18" height="192px"/></a>
+    <a href="https://github.com/ckh2445"><img align="center" src="https://github-readme-stats.vercel.app/api?username=ckh2445&show_icons=true&locale=en&theme=algolia" alt="ckh2445" height="192px"/></a>
 	</p>
 	<p  align="center">
-	  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=candida18&show_icons=true&locale=en&layout=compact&theme=algolia" alt="candida18" height="192px"/>
+	  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=ckh2445&show_icons=true&locale=en&layout=compact&theme=algolia" alt="ckh2445" height="192px"/>
 	</p>
   <br/>
   <b>Note:</b> Top languages is only a metric of the languages my public code consists of and doesn't reflect experience or skill level.
@@ -136,7 +136,7 @@
 <details>
   <summary><b>⚡ Recent GitHub Activity</b></summary>
   <br/>
-	<a href="https://github.com/Candida18"><img alt="Candida's Activity Graph" src="https://github-readme-activity-graph.vercel.app/graph?username=candida18&custom_title=Candida%20Noronha's%20Contribution%20Graph&theme=react-dark" /></a>
+	<a href="https://github.com/ckh2445"><img alt="Candida's Activity Graph" src="https://github-readme-activity-graph.vercel.app/graph?username=ckh2445&custom_title=Candida%20Noronha's%20Contribution%20Graph&theme=react-dark" /></a>
   <br/>
 
 </details>
@@ -146,9 +146,9 @@
 ## 🙋‍♀️ Let's Connect
 
 <p align="center">
-  <a href="https://candida18.github.io/"><img src="https://img.icons8.com/bubbles/50/000000/web.png" alt="Website"/></a>
+  <a href="https://ckh2445.github.io/"><img src="https://img.icons8.com/bubbles/50/000000/web.png" alt="Website"/></a>
 	<a href="mailto:candida.noronha18@gmail.com"><img src="https://img.icons8.com/bubbles/50/000000/gmail.png" alt="Gmail"/></a>
-	<a href="https://github.com/Candida18"><img src="https://img.icons8.com/bubbles/50/000000/github.png" alt="GitHub"/></a>
+	<a href="https://github.com/ckh2445"><img src="https://img.icons8.com/bubbles/50/000000/github.png" alt="GitHub"/></a>
 	<a href="https://linkedin.com/in/candida-noronha-b019101ab"><img src="https://img.icons8.com/bubbles/50/000000/linkedin.png" alt="LinkedIn"/></a>
 	<a href="https://www.facebook.com/candida.noronha.77"><img src="https://img.icons8.com/bubbles/50/000000/facebook-new.png" alt="Facebook"/></a>
 	<a href="https://instagram.com/candyyyy__18"><img src="https://img.icons8.com/bubbles/50/000000/instagram.png" alt="Instagram"/></a>
