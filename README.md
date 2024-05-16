@@ -1,10 +1,17 @@
 
 <p align="center">
-	<img src="https://capsule-render.vercel.app/api?type=venom&color=auto&height=300&section=header&text=Choi_KwangHo&fontSize=90&animation=fadeIn" />
+	<img src=https://capsule-render.vercel.app/api?type=venom&height=300&section=header&text=Choi%20KwangHo&fontSize=90&animation=twinkling&&color=0:8871e5,100:b678c4&stroke=b678c4 />
  <a href="https://github.com/DenverCoder1/readme-typing-svg"><img src="https://readme-typing-svg.herokuapp.com?lines=Full-Stack+Web+Developer;Always%20learning%20new%20things&center=true&width=500&height=50&font=georgia"></a>
 </p>
 <hr/>
-<h4 align="center">I am an incoming SDE at JP Morgan Chase & Co. I like to Code, Design, Innovate and Experiment. I am an enthusiastic and a social person who loves to take up new challenges and learn new skills. Passionate developer with a love for problem-solving and creating innovative solutions. Experienced in various programming languages and frameworks. Dedicated to continuous learning and growth in the ever-evolving world of technology. Open to collaboration and exploring new opportunities.</h4>
+<h4>I have a passion for coding, designing, innovating, and experimenting. Here are a few things about me <br> </h4>
+
+- **Programming Enthusiast**: I love coding, especially in Python. I'm always excited to solve problems and create innovative solutions. <br>
+- **DevOps and Security**: I have a keen interest in DevOps and security. I enjoy exploring best practices and implementing them to ensure robust and efficient systems. <br>
+- **Collaboration**: I strongly believe in the power of collaboration. Working with others to achieve common goals is something I truly value. <br>
+- **Continuous Learning**: The tech world is ever-evolving, and I love keeping up with the latest trends and technologies. Learning new skills and improving existing ones is a continuous journey for me. <br>
+
+<h4> I'm always open to new opportunities and enjoy taking on new challenges. Let's connect and collaborate!</h4>
 <br>
 <p align="center"> <img src="https://komarev.com/ghpvc/?username=ckh2445&label=ckh2445's%20Profile%20Views%20&color=dc143c&style=plastic" alt="ckh2445" /> </p>
 
@@ -18,37 +25,20 @@
 
 <p align="left"> 
   &emsp; 
-  <a href="https://www.cprogramming.com/" target="_blank"> 
-    <img src="https://img.shields.io/badge/csahrp-#512BD4?style=for-the-badge&logo=csharp&logoColor=white">
-  </a> 
-  &emsp;
-  <a href="https://www.w3schools.com/cpp/" target="_blank"> 
-    <img alt="C++" src="https://img.shields.io/badge/C++%20-%2300599C.svg?logo=csharp&logoColor=white">
-  </a> 
-  &emsp;
-  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"> 
-     <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript%20-%23F7DF1E.svg?logo=javascript&logoColor=black">
-   </a>
-  &emsp;
-  <a href="https://www.java.com" target="_blank"> 
-    <img alt="Java" src="https://img.shields.io/badge/Java-%23007396.svg?logo=java&logoColor=white">
-  </a>
-  &emsp;
-   <a href="https://www.python.org" target="_blank">
-    <img alt="Python" src="https://img.shields.io/badge/Python%20-%2314354C.svg?logo=python&logoColor=white">
-  </a>
-  &emsp;
-&emsp; 
+  <a href="https://www.cprogramming.com/" target="_blank"> <img src="https://img.shields.io/badge/C%23-512BD4?logo=csharp&logoColor=white"></a>&emsp;
+  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"> <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript%20-%23F7DF1E.svg?logo=javascript&logoColor=black"></a> &emsp;
+  <a href="https://www.java.com" target="_blank"> <img alt="Java" src="https://img.shields.io/badge/Java-%23007396.svg?logo=java&logoColor=white"></a> &emsp;
+   <a href="https://www.python.org" target="_blank"> <img alt="Python" src="https://img.shields.io/badge/Python%20-%2314354C.svg?logo=python&logoColor=white"></a>&emsp;
 </p>
 
 ### 👉 Frontend Development
 
 <p align="left"> 
   &emsp; 
-  <a href=""><img src="https://img.shields.io/badge/html5-white.svg?style=social&logo=html5&logoColor=E34F26"/></a>&emsp;
-  <a href=""><img src="https://img.shields.io/badge/css3-white.svg?style=social&logo=css3&logoColor=1572B6"/></a>&emsp;
-  <a href=""><img src="https://img.shields.io/badge/javascript-white.svg?style=social&logo=javascript&logoColor=F7DF1E"/></a>&emsp;
-  <a href=""><img src="https://img.shields.io/badge/bootstrap-white.svg?style=social&logo=bootstrap&logoColor=7952B3"/></a>&emsp;
+  <a href=""><img src="https://img.shields.io/badge/html5-E34F26?logo=html5&logoColor=white"/></a>&emsp;
+  <a href=""><img src="https://img.shields.io/badge/css3-1572B6?logo=css3&logoColor=white"/></a>&emsp;
+  <a href=""><img src="https://img.shields.io/badge/javascript-F7DF1E?logo=javascript&logoColor=white"/></a>&emsp;
+  <a href=""><img src="https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white"/></a>&emsp;
 </p>
 
 ### 👉 Databases & Cloud Hosting
