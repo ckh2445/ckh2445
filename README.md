@@ -136,7 +136,7 @@
 <details>
   <summary><b>⚡ Recent GitHub Activity</b></summary>
   <br/>
-	<a href="https://github.com/ckh2445"><img alt="Candida's Activity Graph" src="https://github-readme-activity-graph.vercel.app/graph?username=ckh2445&custom_title=Candida%20Noronha's%20Contribution%20Graph&theme=react-dark" /></a>
+	<a href="https://github.com/ckh2445"><img alt="ckh2445's Activity Graph" src="https://github-readme-activity-graph.vercel.app/graph?username=ckh2445&custom_title=ckh2445's%20Contribution%20Graph&theme=react-dark" /></a>
   <br/>
 
 </details>
