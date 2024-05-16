@@ -18,7 +18,7 @@
 <p align="left"> 
   &emsp; 
   <a href="https://www.cprogramming.com/" target="_blank"> 
-    <img alt="C" src="https://img.shields.io/badge/C%20-%232370ED.svg?logo=c#&logoColor=white">
+    <img src="https://img.shields.io/badge/C#-#512BD4?style=for-the-badge&logo=csharp&logoColor=white">
   </a> 
   &emsp;
   <a href="https://www.w3schools.com/cpp/" target="_blank"> 
@@ -44,18 +44,10 @@
 
 <p align="left"> 
   &emsp; 
-  <a href="https://www.w3.org/html/" target="_blank"> 
-   <img alt="HTML" src="https://img.shields.io/badge/HTML5%20-%23E34F26.svg?logo=html5&logoColor=white">
-  </a>   
-  &emsp;
-  <a href="https://www.w3schools.com/css/" target="_blank">
-    <img alt="CSS" src="https://img.shields.io/badge/CSS%20-%231572B6.svg?logo=css3&logoColor=white">
-  </a> 
-   &emsp;
-  <a href="https://getbootstrap.com" target="_blank"> 
-    <img alt="Bootstrap" src="https://img.shields.io/badge/Bootstrap-%23563D7C.svg?style=flat&logo=bootstrap&logoColor=white"/>
-  </a>
-&emsp; 
+  <a href=""><img src="https://img.shields.io/badge/html5-white.svg?style=social&logo=html5&logoColor=E34F26"/></a>&emsp;
+  <a href=""><img src="https://img.shields.io/badge/css3-white.svg?style=social&logo=css3&logoColor=1572B6"/></a>&emsp;
+  <a href=""><img src="https://img.shields.io/badge/javascript-white.svg?style=social&logo=javascript&logoColor=F7DF1E"/></a>&emsp;
+  <a href=""><img src="https://img.shields.io/badge/bootstrap-white.svg?style=social&logo=bootstrap&logoColor=7952B3"/></a>&emsp;
 </p>
 
 ### 👉 Databases & Cloud Hosting
