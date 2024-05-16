@@ -1,6 +1,6 @@
 
 <p align="center">
-	<img src="https://capsule-render.vercel.app/api?type=venom&color=auto&height=300&section=header&text=Choi%20KwangHo&fontSize=90&animation=fadeIn" />
+	<img src="https://capsule-render.vercel.app/api?type=venom&color=auto&height=300&section=header&text=Choi_KwangHo&fontSize=90&animation=fadeIn" />
  <a href="https://github.com/DenverCoder1/readme-typing-svg"><img src="https://readme-typing-svg.herokuapp.com?lines=Full-Stack+Web+Developer;Always%20learning%20new%20things&center=true&width=500&height=50&font=georgia"></a>
 </p>
 <hr/>
