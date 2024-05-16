@@ -1,4 +1,4 @@
-
+<p align="center"> <img src="https://komarev.com/ghpvc/?username=ckh2445&label=ckh2445's%20Profile%20Views%20&color=dc143c&style=plastic" alt="ckh2445" /> </p>
 <p align="center">
 	<img src=https://capsule-render.vercel.app/api?type=venom&height=300&section=header&text=KwangHo&fontSize=90&animation=twinkling&&color=0:8871e5,100:b678c4&stroke=b678c4 />
  <a href="https://github.com/DenverCoder1/readme-typing-svg"><img src="https://readme-typing-svg.herokuapp.com?lines=Full-Stack+Web+Developer;Always%20learning%20new%20things&center=true&width=500&height=50&font=georgia"></a>
@@ -13,7 +13,7 @@
 
 <h4> I'm always open to new opportunities and enjoy taking on new challenges. Let's connect and collaborate!</h4>
 <br>
-<p align="center"> <img src="https://komarev.com/ghpvc/?username=ckh2445&label=ckh2445's%20Profile%20Views%20&color=dc143c&style=plastic" alt="ckh2445" /> </p>
+
 
 ## 🔥 Streak Stats
 
