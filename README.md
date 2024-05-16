@@ -38,7 +38,7 @@
   <a href=""><img src="https://img.shields.io/badge/html5-E34F26?logo=html5&logoColor=white"/></a>&emsp;
   <a href=""><img src="https://img.shields.io/badge/css3-1572B6?logo=css3&logoColor=white"/></a>&emsp;
   <a href=""><img src="https://img.shields.io/badge/javascript-F7DF1E?logo=javascript&logoColor=white"/></a>&emsp;
-  <a href=""><img src="https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white"/></a>&emsp;
+  <a href=""><img src="https://img.shields.io/badge/bootstrap-7952B3?logo=bootstrap&logoColor=white"/></a>&emsp;
 </p>
 
 ### 👉 Databases & Cloud Hosting
@@ -51,70 +51,51 @@
   &emsp;
     <a href="https://www.github.com"><img alt="GitHub Pages" src="https://img.shields.io/badge/GitHub%20Pages-%23327FC7.svg?style=flat&logo=github&logoColor=white"></a>
   &emsp;
-    <a href="https://www.heroku.com/"><img alt="Heroku" src="https://img.shields.io/badge/Heroku%20-%23430098.svg?logo=heroku&logoColor=white"></a>  
+    <a href=""><img src="https://img.shields.io/badge/oracle-F80000?logo=oracle&logoColor=white"/></a>
   &emsp;
     <a href="https://firebase.google.com/"><img alt="Firebase" src ="https://img.shields.io/badge/Firebase-ffca28?style=flate&logo=firebase&logoColor=black"></a>
  &emsp; 
+    <a href=""><img src="https://img.shields.io/badge/NaverCloud-03C75A?logo=naver&logoColor=white"/></a>&emsp;
 </p>
 
 ### 👉 Frameworks
 <p align="left">
 
-&emsp;&ensp;![Angular](https://img.shields.io/badge/angular-%23DD0031.svg?style=flat&logo=angular&logoColor=white)
-&emsp;&ensp;![Django](https://img.shields.io/badge/django-%23092E20.svg?style=flat&logo=django&logoColor=white)
-&emsp;&ensp;![SpringBoot](https://img.shields.io/badge/Spring%20Boot-6DB33F.svg?style=flat&logo=Spring-Boot&logoColor=white)
+&emsp; 
+  <a href=""><img src="https://img.shields.io/badge/django-092E20?logo=django&logoColor=white"/></a>&emsp;
+  <a href=""><img src="https://img.shields.io/badge/flask-000000?logo=flask&logoColor=white"/></a>&emsp;
+  <a href=""><img src="https://img.shields.io/badge/fastapi-009688?logo=fastapi&logoColor=white"/></a>&emsp;
+  <a href=""><img src="https://img.shields.io/badge/android-34A853?logo=android&logoColor=white"/></a>&emsp;
 </p>
 
 
-### 👉Graphic Designing
+### 👉Communication
 <p align="left">
   &emsp;  
-   <a href="https://www.adobe.com/in/products/illustrator.html" target="_blank"> 
-    <img alt="Adobe Illustrator" src="https://img.shields.io/badge/Adobe%20Illustrator-FF9A00?style=flat&logo=adobe%20illustrator&logoColor=white"/>
-  </a> 
-  &emsp;
-  <a href="https://www.adobe.com/in/products/indesign.html" target="_blank"> 
-    <img alt="Adobe Indesign" src="https://img.shields.io/badge/Adobe%20InDesign-FF3366?style=flat&logo=Adobe%20InDesign&logoColor=white"/> 
-  </a> 
-    &emsp;
-  <a href="https://www.adobe.com/in/products/photoshop-lightroom.html" target="_blank"> 
-    <img alt="Adobe Lightroom" src="https://img.shields.io/badge/Adobe%20Lightroom-31A8FF?style=flat&logo=Adobe%20Lightroom&logoColor=white"/>
-  </a>
-   &emsp;
-  <a href="https://www.adobe.com/in/products/premiere.html" target="_blank"> 
-   <img alt="Adobe Premiere Pro" src="https://img.shields.io/badge/Adobe%20Premiere%20Pro-9999FF?style=flate&logo=Adobe%20Premiere%20Pro&logoColor=white"/>
-  </a>
-    &emsp;
-  <a href="#">
-  	<img alt="Canva" src="https://img.shields.io/badge/Canva-%2300C4CC.svg?style=flat&logo=Canva&logoColor=white"/>
-  </a>
-&emsp; 
+   <a href=""><img src="https://img.shields.io/badge/jira-0052CC?logo=jira&logoColor=white"/></a>&emsp;
+  <a href=""><img src="https://img.shields.io/badge/confluence-172B4D?logo=confluence&logoColor=white"/></a>&emsp;
  </p>
 
-### 👉 Software & Tools
-
+### 👉 Software & OS
 <p>
   &emsp;
-    <a href="#"><img alt="Adobe" src="https://img.shields.io/badge/Adobe%20-%23FF0000.svg?logo=adobe&logoColor=white"></a>
-  &emsp;
-<a href="#"><img alt="Postman" src="https://img.shields.io/badge/Postman-FF6C37?style=flat&logo=postman&logoColor=white"></a>
-   &emsp;
-	<a href="#"><img alt="Colab" src="https://img.shields.io/badge/Colab-00b56a.svg?logo=google-colab&logoColor=white"></a>
-  &emsp;
-    <a href="#"><img alt="Codepen" src="https://img.shields.io/badge/Codepen-000000.svg?logo=codepen&logoColor=white"></a>
-  &emsp;
-    <a href="#"><img alt="Git" src="https://img.shields.io/badge/Git%20-%23F05033.svg?logo=git&logoColor=white"></a>
-&emsp;
-    <a href="#"><img alt="Markdown" src="https://img.shields.io/badge/Markdown-000000?style=flate&logo=markdown&logoColor=white"></a>
-  &emsp;
-    <a href="#"><img alt="Linux" src="https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black"></a>
-  &emsp;
-    <a href="#"><img alt="Visual Studio Code" src="https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?logo=visual-studio-code&logoColor=white"></a>
-  &emsp;
-    <a href="#"><img alt="Jupyter" src="https://img.shields.io/badge/Jupyter%20-%23F37626.svg?logo=Jupyter&logoColor=white"></a>
- &emsp; 
+  <a href=""><img src="https://img.shields.io/badge/ubuntu-E95420?logo=ubuntu&logoColor=white"/></a>&emsp;
+  <a href=""><img src="https://img.shields.io/badge/centos-262577?logo=centos&logoColor=white"/></a>&emsp;
+  <a href=""><img src="https://img.shields.io/badge/git-F05032?logo=git&logoColor=white"/></a>&emsp;
+  <a href=""><img src="https://img.shields.io/badge/linux-FCC624?logo=linux&logoColor=white"/></a>&emsp;
+  <a href=""><img src="https://img.shields.io/badge/markdown-000000?logo=markdown&logoColor=white"/></a>&emsp;
+  <a href=""><img src="https://img.shields.io/badge/visualstudiocode-007ACC?logo=visualstudiocode&logoColor=white"/></a>&emsp;
+  <a href=""><img src="https://img.shields.io/badge/pycharm-000000?logo=pycharm&logoColor=white"/></a>&emsp;
+  <a href=""><img src="https://img.shields.io/badge/postman-FF6C37?logo=postman&logoColor=white"/></a>&emsp;
 </p>
 
+### 👉 Deployment
+<p>
+  &emsp;
+  <a href=""><img src="https://img.shields.io/badge/kubernetes-326CE5?logo=kubernetes&logoColor=white"/></a>&emsp;
+  <a href=""><img src="https://img.shields.io/badge/nginx-009639?logo=nginx&logoColor=white"/></a>&emsp;
+  <a href=""><img src="https://img.shields.io/badge/gunicorn-499848?logo=gunicorn&logoColor=white"/></a>&emsp;
+</p>
 <br/>
 
 ## 📊 Github Stats (Expand to View)
