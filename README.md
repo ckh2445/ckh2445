@@ -112,7 +112,7 @@
 ## 🙋‍♀️ Let's Connect
 
 <p align="center">
-  <a href="https://lighttiger.shop/"><img src="https://img.icons8.com/bubbles/50/000000/web.png" alt="Website"/></a>
+  <a href="https://kolo.co.kr/"><img src="https://img.icons8.com/bubbles/50/000000/web.png" alt="Website"/></a>
 	<a href="mailto:ckh2445@naver.com"><img src="https://img.icons8.com/bubbles/50/000000/gmail.png" alt="Gmail"/></a>
 	<a href="https://github.com/ckh2445"><img src="https://img.icons8.com/bubbles/50/000000/github.png" alt="GitHub"/></a>
 	
