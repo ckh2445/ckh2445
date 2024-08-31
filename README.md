@@ -8,7 +8,7 @@
 
 - **Programming Enthusiast**: I love coding, especially in Python. I'm always excited to solve problems and create innovative solutions. <br>
 - **DevOps and Security**: I have a keen interest in DevOps and security. I enjoy exploring best practices and implementing them to ensure robust and efficient systems. <br>
-- **Collaboration**: I strongly believe in the power of collaboration. Working with others to achieve common goals is something I truly value. <br>
+- **Collaboration**: I strongly believe in the power of collaboration. Working with others to achieve common goals is something I truly value. <br> 
 - **Continuous Learning**: The tech world is ever-evolving, and I love keeping up with the latest trends and technologies. Learning new skills and improving existing ones is a continuous journey for me. <br>
 
 <h4> I'm always open to new opportunities and enjoy taking on new challenges. Let's connect and collaborate!</h4>
