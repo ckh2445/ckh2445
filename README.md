@@ -120,7 +120,7 @@
 - 👉 24.09.09 NTT 부동산 추가 <br>
 <br>
 
-## ❤ Trouble Shooting
+## 🎯 Trouble Shooting
 ### NTT NKS(Ncloud Kubernets Service) 배포 후 memory leak
 - 1. 해당 메모리 누수는 chromedriver의 driver.quit() 복합적인 이슈로 실행 로직 및 docker 파일에서의 버전 명시 코드리뷰로 메모리 누수 해결
   2. uwsgi worker의 memory leak으로 인해 uwsgi 설정에 reload-on-as option을 추가하여 일정 사용률 이상 진입 시 재시작되도록 설정 -> 해당 재시작은 웹서비스를 중단할 수 있지만, NTT는 로드밸런서가 존재하기에 특이사항 없음<br><br>
@@ -138,7 +138,7 @@
      다만, 컨테이너를 재가동하는 중 일부 컨테이너 (nginx, uwsgi)가 stop되지 않았고 재가동 시 중복된 컨테이너명이 있다고 오류가 떠 컨테이너 내에서 server단으로 ssh을 붙여 재배포를 진행하도록 변경하였습니다.
 <br>
 
-## ❤ Blog History
+## ✍🏻 Blog History
 - 24.04.04 정처기 3회 실기 내용 추가(실기 2편) <br>
 - 24.04.05 정처기 4회 실기 내용 추가(실기 2편) <br>
 - 24.04.12 정처기 5회 실기 내용 추가(실기 3편) <br>
