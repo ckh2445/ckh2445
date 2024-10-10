@@ -99,7 +99,7 @@
 </p>
 <br/>
 
-## 🚀 Develope History 
+## 🚀 Develope History (❤: 수정 및 개발완료 👉: 개발 중)
 - ❤ 24.05.07 NTT cloud 환경 재구축 <br>
 - ❤ 24.05.08 NTT Pipeline 구축 완료 <br>
 - ❤ 24.05.29 Kolo_API 배포 <br>
@@ -154,6 +154,10 @@
 - 1. Jenkins가 현재 Docker 환경 컨테이너로 구성이 되어있는 상황이며 Kolo 서버또한 Jenkins와 같이 컨테이너로 돌고있습니다.
      Jenkins 컨테이너에서 Kolo 서버를 재가동 해야하여 docker.sock를 공유하였고 컨테이너 또한 공유가 되는것을 확인하였습니다.
      다만, 컨테이너를 재가동하는 중 일부 컨테이너 (nginx, uwsgi)가 stop되지 않았고 재가동 시 중복된 컨테이너명이 있다고 오류가 떠 컨테이너 내에서 server단으로 ssh을 붙여 재배포를 진행하도록 변경하였습니다.
+
+### Query 최적화 
+- 1. Django에서 for문을 돌려 save 사용 시 N만큼의 시간이 들어 사용자에게 데이터 반환까지 오래걸리는 현상이 있었습니다.
+     이를 해결하고자 bulk_create를 활용하여 저장 할 데이터들을 묶음으로 저장하여 쿼리를 최적화 하였습니다.
 <br>
 
 ## 📊 Github Stats (Expand to View)
