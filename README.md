@@ -98,7 +98,7 @@
 </p>
 <br/>
 
-##  Develope History 
+## 🚀 Develope History 
 - ❤ 24.05.07 NTT cloud 환경 재구축 <br>
 - ❤ 24.05.08 NTT Pipeline 구축 완료 <br>
 - ❤ 24.05.29 Kolo_API 배포 <br>
