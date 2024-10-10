@@ -121,24 +121,6 @@
 - 👉 24.09.09 Kolo 부동산 추가 <br>
 <br>
 
-## 🎯 Trouble Shooting
-### NTT NKS(Ncloud Kubernets Service) 배포 후 memory leak
-- 1. 해당 메모리 누수는 chromedriver의 driver.quit() 복합적인 이슈로 실행 로직 및 docker 파일에서의 버전 명시 코드리뷰로 메모리 누수 해결
-  2. uwsgi worker의 memory leak으로 인해 uwsgi 설정에 reload-on-as option을 추가하여 일정 사용률 이상 진입 시 재시작되도록 설정 -> 해당 재시작은 웹서비스를 중단할 수 있지만, NTT는 로드밸런서가 존재하기에 특이사항 없음<br><br>
-
-### NTT Ncloud 환경 서버 이중화
-- 1. NKS에 올려져있는 NTT의 서버를 Ncloud에도 동작시켜 이중화 작업을 하였지만, Ncloud환경과 NKS 환경이 완전 동일하지 않아 도커파일이 올바르게 동작하지 않아 최대한 비슷한 환경을 유지하되 Docker파일을 구분지어 생성하여 해결하였습니다. <br><br>
-
-### K8S Nat 설정 
-- 1. k8s 환경으로 배포 시 컨테이너는 항상 유동적인 ip를 가지고 있어, ACL 처리를 힘든점을 마주하였습니다. 이를 해결하고자 NAT를 설정해주었고 컨테이너의 IP가 항상 고정적으로 할당될 수 있도록 설정해주었습니다.
-     해당 작업 시 실제로 컨테이너 POD에서 NAT를 거쳐서 Destination IP에 도달하는지 확인을 할 수 없는 문제를 마주하였고 이를 해결하고자 간단한 웹 서버를 만들어 curl을 날려보며 remote address와 Host를 확인하여 실제로 NAT 동작을 확인하였습니다. <br><br>
-
-### Jenkins 배포 문제 
-- 1. Jenkins가 현재 Docker 환경 컨테이너로 구성이 되어있는 상황이며 Kolo 서버또한 Jenkins와 같이 컨테이너로 돌고있습니다.
-     Jenkins 컨테이너에서 Kolo 서버를 재가동 해야하여 docker.sock를 공유하였고 컨테이너 또한 공유가 되는것을 확인하였습니다.
-     다만, 컨테이너를 재가동하는 중 일부 컨테이너 (nginx, uwsgi)가 stop되지 않았고 재가동 시 중복된 컨테이너명이 있다고 오류가 떠 컨테이너 내에서 server단으로 ssh을 붙여 재배포를 진행하도록 변경하였습니다.
-<br>
-
 ## ✍🏻 Blog History
 - 24.04.04 정처기 3회 실기 내용 추가(실기 2편) <br>
 - 24.04.05 정처기 4회 실기 내용 추가(실기 2편) <br>
@@ -156,7 +138,23 @@
 - 24.10.10 Django bulk create, Celery 개념 작성 <br>
 <br>
 
+## 🎯 Trouble Shooting
+### NTT NKS(Ncloud Kubernets Service) 배포 후 memory leak
+- 1. 해당 메모리 누수는 chromedriver의 driver.quit() 복합적인 이슈로 실행 로직 및 docker 파일에서의 버전 명시 코드리뷰로 메모리 누수 해결
+  2. uwsgi worker의 memory leak으로 인해 uwsgi 설정에 reload-on-as option을 추가하여 일정 사용률 이상 진입 시 재시작되도록 설정 -> 해당 재시작은 웹서비스를 중단할 수 있지만, NTT는 로드밸런서가 존재하기에 특이사항 없음<br><br>
 
+### NTT Ncloud 환경 서버 이중화
+- 1. NKS에 올려져있는 NTT의 서버를 Ncloud에도 동작시켜 이중화 작업을 하였지만, Ncloud환경과 NKS 환경이 완전 동일하지 않아 도커파일이 올바르게 동작하지 않아 최대한 비슷한 환경을 유지하되 Docker파일을 구분지어 생성하여 해결하였습니다. <br><br>
+
+### K8S Nat 설정 
+- 1. k8s 환경으로 배포 시 컨테이너는 항상 유동적인 ip를 가지고 있어, ACL 처리를 힘든점을 마주하였습니다. 이를 해결하고자 NAT를 설정해주었고 컨테이너의 IP가 항상 고정적으로 할당될 수 있도록 설정해주었습니다.
+     해당 작업 시 실제로 컨테이너 POD에서 NAT를 거쳐서 Destination IP에 도달하는지 확인을 할 수 없는 문제를 마주하였고 이를 해결하고자 간단한 웹 서버를 만들어 curl을 날려보며 remote address와 Host를 확인하여 실제로 NAT 동작을 확인하였습니다. <br><br>
+
+### Jenkins 배포 문제 
+- 1. Jenkins가 현재 Docker 환경 컨테이너로 구성이 되어있는 상황이며 Kolo 서버또한 Jenkins와 같이 컨테이너로 돌고있습니다.
+     Jenkins 컨테이너에서 Kolo 서버를 재가동 해야하여 docker.sock를 공유하였고 컨테이너 또한 공유가 되는것을 확인하였습니다.
+     다만, 컨테이너를 재가동하는 중 일부 컨테이너 (nginx, uwsgi)가 stop되지 않았고 재가동 시 중복된 컨테이너명이 있다고 오류가 떠 컨테이너 내에서 server단으로 ssh을 붙여 재배포를 진행하도록 변경하였습니다.
+<br>
 
 ## 📊 Github Stats (Expand to View)
 <details>
