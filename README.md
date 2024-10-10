@@ -19,43 +19,6 @@
 
 <p align="center"><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=ckh2445&theme=algolia" alt="ckh2445" /></p>
 
-## ❤ Develope History 
-- 24.05.07 NTT cloud 환경 재구축 <br>
-- 24.05.08 NTT Pipeline 구축 완료 <br>
-- 24.05.29 Kolo_API 배포 <br>
-- 24.06.01 Kolo_Jenkins igonre 추가 <br>
-- 24.06.06 Notion 작성 <br>
-- 24.06.05 NTT mail 기능 확장 <br> 
-- 24.06.08 Kolo Jenkins 완성 <br>
-- 24.06.11 Kolo Branchs rule 수정 <br>
-- 24.06.19 NTT login 리팩토링 <br>
-- 24.07.05 NTT open_list 작성 <br>
-- 24.07.09 NTT query 작성 <br>
-- 24.07.14 NTT Filter 작성 <br>
-- 24.07.18 NTT 다중 폼 삭제 구상 <br>
-- 24.08.07 NTT open_list 배포 <br>
-- 24.08.14 NTT 재배포 <br>
-- 24.08.29 Kolo 리메이크 <br>
-- 24.09.07 Kolo 리메이크 완료 <br>
-- 24.09.27 NTT 버튼 검출 100% 작업 <br>
-<br>
-## ❤ Trouble Shooting
-### NTT NKS(Ncloud Kubernets Service) 배포 후 memory leak
-- 1. 해당 메모리 누수는 chromedriver의 driver.quit() 복합적인 이슈로 실행 로직 및 docker 파일에서의 버전 명시 코드리뷰로 메모리 누수 해결
-  2. uwsgi worker의 memory leak으로 인해 uwsgi 설정에 reload-on-as option을 추가하여 일정 사용률 이상 진입 시 재시작되도록 설정 -> 해당 재시작은 웹서비스를 중단할 수 있지만, NTT는 로드밸런서가 존재하기에 특이사항 없음<br><br>
-
-### NTT Ncloud 환경 서버 이중화
-- 1. NKS에 올려져있는 NTT의 서버를 Ncloud에도 동작시켜 이중화 작업을 하였지만, Ncloud환경과 NKS 환경이 완전 동일하지 않아 도커파일이 올바르게 동작하지 않아 최대한 비슷한 환경을 유지하되 Docker파일을 구분지어 생성하여 해결하였습니다. <br><br>
-
-### K8S Nat 설정 
-- 1. k8s 환경으로 배포 시 컨테이너는 항상 유동적인 ip를 가지고 있어, ACL 처리를 힘든점을 마주하였습니다. 이를 해결하고자 NAT를 설정해주었고 컨테이너의 IP가 항상 고정적으로 할당될 수 있도록 설정해주었습니다.
-     해당 작업 시 실제로 컨테이너 POD에서 NAT를 거쳐서 Destination IP에 도달하는지 확인을 할 수 없는 문제를 마주하였고 이를 해결하고자 간단한 웹 서버를 만들어 curl을 날려보며 remote address와 Host를 확인하여 실제로 NAT 동작을 확인하였습니다. <br><br>
-
-### Jenkins 배포 문제 
-- 1. Jenkins가 현재 Docker 환경 컨테이너로 구성이 되어있는 상황이며 Kolo 서버또한 Jenkins와 같이 컨테이너로 돌고있습니다.
-     Jenkins 컨테이너에서 Kolo 서버를 재가동 해야하여 docker.sock를 공유하였고 컨테이너 또한 공유가 되는것을 확인하였습니다.
-     다만, 컨테이너를 재가동하는 중 일부 컨테이너 (nginx, uwsgi)가 stop되지 않았고 재가동 시 중복된 컨테이너명이 있다고 오류가 떠 컨테이너 내에서 server단으로 ssh을 붙여 재배포를 진행하도록 변경하였습니다.
-<br>
 ## 🛠️ My Skills
 
 ### 👉 Programming languages
@@ -134,6 +97,59 @@
   <a href=""><img src="https://img.shields.io/badge/gunicorn-499848?logo=gunicorn&logoColor=white"/></a>&emsp;
 </p>
 <br/>
+
+## ❤ Develope History 
+- 24.05.07 NTT cloud 환경 재구축 <br>
+- 24.05.08 NTT Pipeline 구축 완료 <br>
+- 24.05.29 Kolo_API 배포 <br>
+- 24.06.01 Kolo_Jenkins igonre 추가 <br>
+- 24.06.06 Notion 작성 <br>
+- 24.06.05 NTT mail 기능 확장 <br> 
+- 24.06.08 Kolo Jenkins 완성 <br>
+- 24.06.11 Kolo Branchs rule 수정 <br>
+- 24.06.19 NTT login 리팩토링 <br>
+- 24.07.05 NTT open_list 작성 <br>
+- 24.07.09 NTT query 작성 <br>
+- 24.07.14 NTT Filter 작성 <br>
+- 24.07.18 NTT 다중 폼 삭제 구상 <br>
+- 24.08.07 NTT open_list 배포 <br>
+- 24.08.14 NTT 재배포 <br>
+- 24.08.29 Kolo 리메이크 <br>
+- 24.09.07 Kolo 리메이크 완료 <br>
+- 24.09.27 NTT 버튼 검출 100% 작업 <br>
+<br>
+## ❤ Trouble Shooting
+### NTT NKS(Ncloud Kubernets Service) 배포 후 memory leak
+- 1. 해당 메모리 누수는 chromedriver의 driver.quit() 복합적인 이슈로 실행 로직 및 docker 파일에서의 버전 명시 코드리뷰로 메모리 누수 해결
+  2. uwsgi worker의 memory leak으로 인해 uwsgi 설정에 reload-on-as option을 추가하여 일정 사용률 이상 진입 시 재시작되도록 설정 -> 해당 재시작은 웹서비스를 중단할 수 있지만, NTT는 로드밸런서가 존재하기에 특이사항 없음<br><br>
+
+### NTT Ncloud 환경 서버 이중화
+- 1. NKS에 올려져있는 NTT의 서버를 Ncloud에도 동작시켜 이중화 작업을 하였지만, Ncloud환경과 NKS 환경이 완전 동일하지 않아 도커파일이 올바르게 동작하지 않아 최대한 비슷한 환경을 유지하되 Docker파일을 구분지어 생성하여 해결하였습니다. <br><br>
+
+### K8S Nat 설정 
+- 1. k8s 환경으로 배포 시 컨테이너는 항상 유동적인 ip를 가지고 있어, ACL 처리를 힘든점을 마주하였습니다. 이를 해결하고자 NAT를 설정해주었고 컨테이너의 IP가 항상 고정적으로 할당될 수 있도록 설정해주었습니다.
+     해당 작업 시 실제로 컨테이너 POD에서 NAT를 거쳐서 Destination IP에 도달하는지 확인을 할 수 없는 문제를 마주하였고 이를 해결하고자 간단한 웹 서버를 만들어 curl을 날려보며 remote address와 Host를 확인하여 실제로 NAT 동작을 확인하였습니다. <br><br>
+
+### Jenkins 배포 문제 
+- 1. Jenkins가 현재 Docker 환경 컨테이너로 구성이 되어있는 상황이며 Kolo 서버또한 Jenkins와 같이 컨테이너로 돌고있습니다.
+     Jenkins 컨테이너에서 Kolo 서버를 재가동 해야하여 docker.sock를 공유하였고 컨테이너 또한 공유가 되는것을 확인하였습니다.
+     다만, 컨테이너를 재가동하는 중 일부 컨테이너 (nginx, uwsgi)가 stop되지 않았고 재가동 시 중복된 컨테이너명이 있다고 오류가 떠 컨테이너 내에서 server단으로 ssh을 붙여 재배포를 진행하도록 변경하였습니다.
+<br>
+## Blog History
+- 24.04.04 정처기 3회 실기 내용 추가(실기 2편) <br>
+- 24.04.05 정처기 4회 실기 내용 추가(실기 2편) <br>
+- 24.04.12 정처기 5회 실기 내용 추가(실기 3편) <br>
+- 24.04.18 21년 정처기 3회 실기 내용 추가(실기 4편) <br>
+- 24.04.18 21년 정처기 4회 실기 내용 추가(실기 5편) <br>
+- 24.04.26 마지막 요약 내용 추가(실기 6편) <br>
+- 24.05.04 코딩테스트 5.정다면체 풀이 <br>
+- 24.05.27 Jira(BTS) 정리 <br>
+- 24.06.11 PEP 8 (Python Coding Convention) <br>
+- 24.06.13 글쓰기 작성법 내용 추가 <br>\
+- 24.06.17 PEP 8 내용 추가 <br>
+- 24.06.29 코테 내용 정리 <br>
+- 24.08.12 Java Soap 통신 소스 수정 
+<br>
 
 ## 📊 Github Stats (Expand to View)
 <details>
