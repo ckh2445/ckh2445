@@ -118,6 +118,7 @@
 - 24.09.07 Kolo 리메이크 완료 <br>
 - 24.09.27 NTT 버튼 검출 100% 작업 <br>
 <br>
+
 ## ❤ Trouble Shooting
 ### NTT NKS(Ncloud Kubernets Service) 배포 후 memory leak
 - 1. 해당 메모리 누수는 chromedriver의 driver.quit() 복합적인 이슈로 실행 로직 및 docker 파일에서의 버전 명시 코드리뷰로 메모리 누수 해결
@@ -135,6 +136,7 @@
      Jenkins 컨테이너에서 Kolo 서버를 재가동 해야하여 docker.sock를 공유하였고 컨테이너 또한 공유가 되는것을 확인하였습니다.
      다만, 컨테이너를 재가동하는 중 일부 컨테이너 (nginx, uwsgi)가 stop되지 않았고 재가동 시 중복된 컨테이너명이 있다고 오류가 떠 컨테이너 내에서 server단으로 ssh을 붙여 재배포를 진행하도록 변경하였습니다.
 <br>
+
 ## Blog History
 - 24.04.04 정처기 3회 실기 내용 추가(실기 2편) <br>
 - 24.04.05 정처기 4회 실기 내용 추가(실기 2편) <br>
