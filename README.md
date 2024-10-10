@@ -98,25 +98,26 @@
 </p>
 <br/>
 
-## ❤ Develope History 
-- 24.05.07 NTT cloud 환경 재구축 <br>
-- 24.05.08 NTT Pipeline 구축 완료 <br>
-- 24.05.29 Kolo_API 배포 <br>
-- 24.06.01 Kolo_Jenkins igonre 추가 <br>
-- 24.06.06 Notion 작성 <br>
-- 24.06.05 NTT mail 기능 확장 <br> 
-- 24.06.08 Kolo Jenkins 완성 <br>
-- 24.06.11 Kolo Branchs rule 수정 <br>
-- 24.06.19 NTT login 리팩토링 <br>
-- 24.07.05 NTT open_list 작성 <br>
-- 24.07.09 NTT query 작성 <br>
-- 24.07.14 NTT Filter 작성 <br>
-- 24.07.18 NTT 다중 폼 삭제 구상 <br>
-- 24.08.07 NTT open_list 배포 <br>
-- 24.08.14 NTT 재배포 <br>
-- 24.08.29 Kolo 리메이크 <br>
-- 24.09.07 Kolo 리메이크 완료 <br>
-- 24.09.27 NTT 버튼 검출 100% 작업 <br>
+##  Develope History 
+- ❤ 24.05.07 NTT cloud 환경 재구축 <br>
+- ❤ 24.05.08 NTT Pipeline 구축 완료 <br>
+- ❤ 24.05.29 Kolo_API 배포 <br>
+- ❤ 24.06.01 Kolo_Jenkins igonre 추가 <br>
+- ❤ 24.06.06 Notion 작성 <br>
+- ❤ 24.06.05 NTT mail 기능 확장 <br> 
+- ❤ 24.06.08 Kolo Jenkins 완성 <br>
+- ❤ 24.06.11 Kolo Branchs rule 수정 <br>
+- ❤ 24.06.19 NTT login 리팩토링 <br>
+- ❤ 24.07.05 NTT open_list 작성 <br>
+- ❤ 24.07.09 NTT query 작성 <br>
+- ❤ 24.07.14 NTT Filter 작성 <br>
+- ❤ 24.07.18 NTT 다중 폼 삭제 구상 <br>
+- ❤ 24.08.07 NTT open_list 배포 <br>
+- ❤ 24.08.14 NTT 재배포 <br>
+- ❤ 24.08.29 Kolo 리메이크 <br>
+- ❤ 24.09.07 Kolo 리메이크 완료 <br>
+- 👉 24.09.27 NTT 버튼 검출 100% 작업 <br>
+- 👉 24.09.09 NTT 부동산 추가 <br>
 <br>
 
 ## ❤ Trouble Shooting
@@ -137,7 +138,7 @@
      다만, 컨테이너를 재가동하는 중 일부 컨테이너 (nginx, uwsgi)가 stop되지 않았고 재가동 시 중복된 컨테이너명이 있다고 오류가 떠 컨테이너 내에서 server단으로 ssh을 붙여 재배포를 진행하도록 변경하였습니다.
 <br>
 
-## Blog History
+## ❤ Blog History
 - 24.04.04 정처기 3회 실기 내용 추가(실기 2편) <br>
 - 24.04.05 정처기 4회 실기 내용 추가(실기 2편) <br>
 - 24.04.12 정처기 5회 실기 내용 추가(실기 3편) <br>
@@ -150,8 +151,11 @@
 - 24.06.13 글쓰기 작성법 내용 추가 <br>\
 - 24.06.17 PEP 8 내용 추가 <br>
 - 24.06.29 코테 내용 정리 <br>
-- 24.08.12 Java Soap 통신 소스 수정 
+- 24.08.12 Java Soap 통신 소스 수정 <br>
+- 24.10.10 Django bulk create, Celery 개념 작성 <br>
 <br>
+
+
 
 ## 📊 Github Stats (Expand to View)
 <details>
