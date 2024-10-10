@@ -19,6 +19,27 @@
 
 <p align="center"><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=ckh2445&theme=algolia" alt="ckh2445" /></p>
 
+## 🛠️ Develope History 
+- 24.05.07 NTT cloud 환경 재구축 <br>
+- 24.05.08 NTT Pipeline 구축 완료 <br>
+- 24.05.29 Kolo_API 배포 <br>
+- 24.06.01 Kolo_Jenkins igonre 추가 <br>
+- 24.06.06 Notion 작성 <br>
+- 24.06.05 NTT mail 기능 확장 <br> 
+- 24.06.08 Kolo Jenkins 완성 <br>
+- 24.06.11 Kolo Branchs rule 수정 <br>
+- 24.06.19 NTT login 리팩토링 <br>
+- 24.07.05 NTT open_list 작성 <br>
+- 24.07.09 NTT query 작성 <br>
+- 24.07.14 NTT Filter 작성 <br>
+- 24.07.18 NTT 다중 폼 삭제 구상 <br>
+- 24.08.07 NTT open_list 배포 <br>
+- 24.08.14 NTT 재배포 <br>
+- 24.08.29 Kolo 리메이크 <br>
+- 24.09.07 Kolo 리메이크 완료 <br>
+- 24.09.27 NTT 버튼 검출 100% 작업 <br>
+
+
 ## 🛠️ My Skills
 
 ### 👉 Programming languages
