@@ -120,6 +120,7 @@
 - 💙 24.09.27 NTT 버튼 검출 100% 작업 <br>
 - 💙 24.09.09 Kolo 부동산 추가 <br>
 - 💙 24.10.22 NTT login app 분리 작업 후 로직변경  <br>
+- 💙 24.10.25 NTT order app 분리 작업 및 order sample 구현 <br>
 <br>
 
 ## ✍🏻 Blog History
