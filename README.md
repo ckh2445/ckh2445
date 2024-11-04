@@ -139,6 +139,7 @@
 - 24.08.12 Java Soap 통신 소스 수정 <br>
 - 24.10.10 Django bulk create, Celery 개념 작성 <br>
 - 24.10.31 Django debug toolbar 블로그 작성 <br>
+- 24.11.04 Django CBV vs FBV 블로그 작성 <br>
 <br>
 
 ## 🎯 Trouble Shooting
