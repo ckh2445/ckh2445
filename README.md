@@ -121,6 +121,7 @@
 - 💙 24.09.09 Kolo 부동산 추가 <br>
 - 💙 24.10.22 NTT login app 분리 작업 후 로직변경  <br>
 - 💙 24.10.25 NTT order app 분리 작업 및 order sample 구현 <br>
+- ⌛ 24.11.05 linux app 작업 <br>
 <br>
 
 ## ✍🏻 Blog History
