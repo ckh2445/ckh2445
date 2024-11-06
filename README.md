@@ -100,28 +100,25 @@
 <br/>
 
 ## 🚀 Develope History (💙: 수정 및 개발완료 ⌛: 개발 중)
-- 💙 24.05.07 NTT cloud 환경 재구축 <br>
-- 💙 24.05.08 NTT Pipeline 구축 완료 <br>
-- 💙 24.05.29 Kolo_API 배포 <br>
-- 💙 24.06.01 Kolo_Jenkins igonre 추가 <br>
-- 💙 24.06.06 Notion 작성 <br>
-- 💙 24.06.05 NTT mail 기능 확장 <br> 
-- 💙 24.06.08 Kolo Jenkins 완성 <br>
-- 💙 24.06.11 Kolo Branchs rule 수정 <br>
-- 💙 24.06.19 NTT login 리팩토링 <br>
-- 💙 24.07.05 NTT open_list 작성 <br>
-- 💙 24.07.09 NTT query 작성 <br>
-- 💙 24.07.14 NTT Filter 작성 <br>
-- 💙 24.07.18 NTT 다중 폼 삭제 구상 <br>
-- 💙 24.08.07 NTT open_list 배포 <br>
-- 💙 24.08.14 NTT 재배포 <br>
-- 💙 24.08.29 Kolo 리메이크 <br>
-- 💙 24.09.07 Kolo 리메이크 완료 <br>
-- 💙 24.09.27 NTT 버튼 검출 100% 작업 <br>
-- 💙 24.09.09 Kolo 부동산 추가 <br>
-- 💙 24.10.22 NTT login app 분리 작업 후 로직변경  <br>
-- 💙 24.10.25 NTT order app 분리 작업 및 order sample 구현 <br>
-- ⌛ 24.11.05 linux app 작업 <br>
+- 💙 24.05.07 [NTT] cloud 환경 재구축 <br>
+- 💙 24.05.08 [NTT] Pipeline 구축 완료 <br>
+- 💙 24.05.29 [Kolo_API] 배포 <br>
+- 💙 24.06.01 [Kolo] Jenkins igonre 추가 <br>
+- 💙 24.06.05 [NTT] mail 기능 확장 <br> 
+- 💙 24.06.08 [Kolo] Jenkins 완성 <br>
+- 💙 24.06.11 [Kolo] Branchs rule 수정 <br>
+- 💙 24.06.19 [NTT] login 리팩토링 <br>
+- 💙 24.07.05 [NTT] open_list 작성 <br>
+- 💙 24.07.09 [NTT] query 최적화 <br>
+- 💙 24.07.14 [NTT] Filter 작성 <br>
+- 💙 24.07.18 [NTT] 다중 폼 처리 로직 구현 <br>
+- 💙 24.08.07 [NTT] open_list 배포 <br>
+- 💙 24.08.29 [Kolo] 디자인 리메이크 <br>
+- 💙 24.09.27 [NTT] 자동화 검출 100% 작업 <br>
+- 💙 24.09.09 [Kolo] 부동산 개발 <br>
+- 💙 24.10.22 [NTT] login app 분리 작업 후 로직변경  <br>
+- 💙 24.10.25 [NTT] order app 분리 작업 및 order sample 구현 <br>
+- ⌛ 24.11.05 [kolo] linux app 개발 <br>
 <br>
 
 ## ✍🏻 Blog History
@@ -133,6 +130,7 @@
 - 24.04.26 마지막 요약 내용 추가(실기 6편) <br>
 - 24.05.04 코딩테스트 5.정다면체 풀이 <br>
 - 24.05.27 Jira(BTS) 정리 <br>
+- 24.06.06 Notion 작성 <br>
 - 24.06.11 PEP 8 (Python Coding Convention) <br>
 - 24.06.13 글쓰기 작성법 내용 추가 <br>
 - 24.06.17 PEP 8 내용 추가 <br>
