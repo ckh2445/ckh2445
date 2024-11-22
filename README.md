@@ -99,100 +99,55 @@
 </p>
 <br/>
 
-## 🚀 Develope History (💙: 수정 및 개발완료 ⌛: 개발 중)
-- 💙 24.05.07 [NTT] cloud 환경 재구축 <br>
-- 💙 24.05.08 [NTT] Pipeline 구축 완료 <br>
-- 💙 24.05.29 [Kolo_API] 배포 <br>
-- 💙 24.06.01 [Kolo] Jenkins igonre 추가 <br>
-- 💙 24.06.05 [NTT] mail 기능 확장 <br> 
-- 💙 24.06.08 [Kolo] Jenkins 완성 <br>
-- 💙 24.06.11 [Kolo] Branchs rule 수정 <br>
-- 💙 24.06.19 [NTT] login 리팩토링 <br>
-- 💙 24.07.05 [NTT] open_list 작성 <br>
-- 💙 24.07.09 [NTT] query 최적화 <br>
-- 💙 24.07.14 [NTT] Filter 작성 <br>
-- 💙 24.07.18 [NTT] 다중 폼 처리 로직 구현 <br>
-- 💙 24.08.07 [NTT] open_list 배포 <br>
-- 💙 24.08.29 [Kolo] 디자인 리메이크 <br>
-- 💙 24.09.27 [NTT] 자동화 검출 100% 작업 <br>
-- 💙 24.09.09 [Kolo] 부동산 개발 <br>
-- 💙 24.10.22 [NTT] login app 분리 작업 후 로직변경  <br>
-- 💙 24.10.25 [NTT] order app 분리 작업 및 order sample 구현 <br>
-- ⌛ 24.11.05 [kolo] linux app 개발 <br>
-<br>
+# 🎯 Trouble Shooting
+## 1. NTT NKS(Ncloud Kubernets Service) 배포 후 memory leak
+### 1-1. Chromedriver 메모리 누수 문제 해결
 
-## ✍🏻 Blog History
-- 24.04.04 정처기 3회 실기 내용 추가(실기 2편) <br>
-- 24.04.05 정처기 4회 실기 내용 추가(실기 2편) <br>
-- 24.04.12 정처기 5회 실기 내용 추가(실기 3편) <br>
-- 24.04.18 21년 정처기 3회 실기 내용 추가(실기 4편) <br>
-- 24.04.18 21년 정처기 4회 실기 내용 추가(실기 5편) <br>
-- 24.04.26 마지막 요약 내용 추가(실기 6편) <br>
-- 24.05.04 코딩테스트 5.정다면체 풀이 <br>
-- 24.05.27 Jira(BTS) 정리 <br>
-- 24.06.06 Notion 작성 <br>
-- 24.06.11 PEP 8 (Python Coding Convention) <br>
-- 24.06.13 글쓰기 작성법 내용 추가 <br>
-- 24.06.17 PEP 8 내용 추가 <br>
-- 24.06.29 코테 내용 정리 <br>
-- 24.08.12 Java Soap 통신 소스 수정 <br>
-- 24.10.10 Django bulk create, Celery 개념 작성 <br>
-- 24.10.31 Django debug toolbar 블로그 작성 <br>
-- 24.11.04 Django CBV vs FBV 블로그 작성 <br>
-<br>
-
-## 🎯 Trouble Shooting
-### NTT NKS(Ncloud Kubernets Service) 배포 후 memory leak
-### 1. Chromedriver 메모리 누수 문제 해결
-<hr>
-
-#### 문제 원인
+### 문제 원인
 Chromedriver에서 메모리 누수가 발생한 원인은 두 가지로 파악되었습니다. <br>
 <br>
 driver.quit() 호출 로직에서 발생한 코드상의 문제. <br>
 Dockerfile에서 Chromedriver 버전 관리 미흡으로 인한 환경 불안정성. <br>
-<hr>
 
-#### 해결 과정 <br>
-**실행 로직 개선**: driver.quit() 호출과 관련된 로직을 정밀 분석하여 불필요한 메모리 점유를 방지하도록 수정. <br>
-**Dockerfile 최적화**: 안정된 Chromedriver 버전을 명시적으로 관리하기 위한 코드 리뷰를 진행하고, 정확한 버전을 명시하여 빌드 안정성 확보. <br>
-<hr>
 
-#### 결과
+### 해결 과정 <br>
+실행 로직 개선: driver.quit() 호출과 관련된 로직을 정밀 분석하여 불필요한 메모리 점유를 방지하도록 수정. <br>
+Dockerfile 최적화: 안정된 Chromedriver 버전을 명시적으로 관리하기 위한 코드 리뷰를 진행하고, 정확한 버전을 명시하여 빌드 안정성 확보. <br>
+
+
+### 결과
 크롤링 작업 중 발생하던 메모리 누수 문제가 해결되어 작업 안정성이 크게 향상되었습니다. <br>
 Dockerfile에서의 명시적 버전 관리를 통해 다양한 환경에서도 일관된 동작을 보장할 수 있게 되었습니다. <br>
-<hr>
+
 
 ### 2. uWSGI Worker 메모리 누수 대응
-<hr>
-
-#### 문제 원인
+### 문제 원인
 uWSGI Worker에서 메모리 사용량이 점진적으로 증가하여 일정 임계치를 초과하면 서비스 장애로 이어질 가능성이 있었습니다. <br>
 이는 장시간 실행되는 프로세스에서 메모리 누수가 누적된 결과로 확인되었습니다. <br>
-<hr>
 
-#### 해결 과정 <br>
+
+### 해결 과정 <br>
 reload-on-as 옵션 추가: <br>
 uWSGI 설정에 reload-on-as 옵션을 추가하여 메모리 사용량이 설정된 임계치를 초과할 경우 Worker를 자동으로 재시작하도록 구성했습니다. <br>
-<hr>
 
-#### 결과<br>
+
+### 결과<br>
 메모리 누수가 발생하더라도 자동으로 Worker를 재시작해 문제를 효율적으로 관리할 수 있게 되었습니다. <br>
 Worker 재시작으로 인한 서비스 중단 가능성도 로드 밸런서를 통한 트래픽 분산으로 문제없이 처리되었습니다. <br>
-<hr>
 
-#### 적용 결과 및 효과<br>
-**Chromedriver**<br>
+
+### 적용 결과 및 효과<br>
+Chromedriver<br>
 메모리 누수 문제를 근본적으로 해결하여 크롤링 작업의 안정성을 확보. <br>
 다양한 환경에서 일관된 동작이 가능해짐. <Br>
-**uWSGI**<br>
+uWSGI<br>
 메모리 사용량 관리 강화로 장기 실행 환경에서도 안정적 서비스 유지. <br>
 임계치 초과 시 자동 재시작을 통해 메모리 누수를 효과적으로 관리. <br>
 로드 밸런서 <br>
 uWSGI Worker 재시작 시에도 트래픽을 로드 밸런서를 통해 분산하여 서비스 연속성을 보장. <br>
-<hr>
 
-#### 결론<br>
+
+### 결론<br>
 이번 메모리 누수 해결 작업을 통해 전반적인 시스템 성능과 안정성을 크게 향상시킬 수 있었습니다. <br>
 특히, Chromedriver와 uWSGI에서의 문제를 체계적으로 분석하고 해결한 경험은 다양한 운영 환경에서 발생할 수 있는 문제를 대비하는 데 중요한 교훈을 제공했습니다<br>
 
