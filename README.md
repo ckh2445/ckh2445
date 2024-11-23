@@ -3,7 +3,7 @@
 	<img src=https://capsule-render.vercel.app/api?type=venom&height=300&section=header&text=KwangHo&fontSize=90&animation=twinkling&&color=0:8871e5,100:b678c4&stroke=b678c4 />
  <a href="https://github.com/DenverCoder1/readme-typing-svg"><img src="https://readme-typing-svg.herokuapp.com?lines=Full-Stack+Web+Developer;Always%20learning%20new%20things&center=true&width=500&height=50&font=georgia"></a>
 </p>
-<hr/>
+<hr/> 
 <h4>I have a passion for coding, designing, innovating, and experimenting. Here are a few things about me <br> </h4>
 
 - **Programming Enthusiast**: I love coding, especially in Python. I'm always excited to solve problems and create innovative solutions. <br>
